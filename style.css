@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root{
-    --yellow: #0018f9; 
+    --yellow: #b5d623; 
 }
 
 *{
@@ -20,7 +20,7 @@
 }
 
 html{
-    font-size: 92.5%;
+    font-size: 64.5%;
     overflow-x: hidden;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 section{
-    min-height: 100vw;
+    min-height: 100vh;
     padding:1rem;
 }
 
@@ -224,6 +224,10 @@ body > header> nav > ul > li > a:hover {
     font-size: 3rem;
     color:#fff;
 }
+#about > div > div.counter > div:nth-child(n) > h3 {
+    color: #fff;
+}
+
 
 .education .box-container{
     display: flex;
@@ -378,6 +382,60 @@ body > a > img {
     width: 5rem;
 }
 
+#contact > div > div.soc-mrezi > class > div:nth-child(1) > a > img{
+    position: relative;
+    right: 5rem;
+    bottom: 1rem;
+    width: 9rem;
+    height: 9rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: .7rem solid var(--yellow);
+
+}
+#contact > div > div.soc-mrezi > class > div:nth-child(2) > a > img{
+    position: relative;
+    right: 5rem;
+    bottom: 1rem;
+    width: 9rem;
+    height: 9rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: .7rem solid var(--yellow);
+}
+#contact > div > div.soc-mrezi > class > div:nth-child(3) > a > img{
+    position: relative;
+    right: 5rem;
+    width: 9.6rem;
+    height: 9.6rem;
+    top:-0.4rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: .7rem solid var(--yellow);
+}
+#contact > div > div.soc-mrezi > class > div:nth-child(4) > a > img{
+    position: relative;
+    right: 6rem;
+    width: 9.6rem;
+    bottom: 0.3rem;
+    margin-left: 1.4rem;
+    height: 9.6rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: .7rem solid var(--yellow);
+}
+#contact > div > div.soc-mrezi > class > div:nth-child(n)
+{ 
+    position: relative;
+    top: 25rem;
+    right: 15rem;
+    display: inline;
+    padding: 1rem;
+}
+
+
+
+
 
 
 
@@ -418,7 +476,7 @@ body > a > img {
     #menu {
         display: block;
     }
-    header .toggle{
+    header.toggle{
         left: 0%;
     }
     body {
